@@ -6,7 +6,7 @@ body {
 
 /* PROBLEM 2: Select profile picture and make it round */
 /* YOUR CODE HERE */
-#profile-pic img {
+#profile-pic {
     border-radius: 100%;
     overflow: clip;
 }
