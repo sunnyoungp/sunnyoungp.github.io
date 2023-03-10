@@ -4,7 +4,7 @@
         width: 85px;
         }
 
-}
+
 .nav--button {
     /*  [Problem 2]
         FIXME: Initialize flexbox vertically. Align the text and icons so that they
@@ -12,9 +12,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
 
 }
+
 .dashboard{
     /*  [Problem 3]
         FIXME: Add some breathing room! The dashboard portion is a bit tight! 
