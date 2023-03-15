@@ -14,10 +14,18 @@ h1{
     color:#262626;
 
 }
-
-a img {
+.nav--button a, .nav--button img {
   padding: 0;
+  line-height: 1;
 }
+
+.nav--button.nav-button---logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+  }
 
 a {
     text-decoration:none;
