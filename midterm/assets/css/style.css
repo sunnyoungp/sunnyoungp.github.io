@@ -1,0 +1,96 @@
+body{
+    background-color:#FFF33D;
+    margin-left:100px;
+    margin-right:100px;
+    display:-webkit-box;
+    font-family:'ITC Kabel Std';
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 42px;
+    color:#262626;
+
+}
+
+a img {
+  padding: 0;
+}
+
+a {
+    text-decoration:none;
+    color: #C9252C;
+}
+
+.nav{
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav--button img:not(#logo){
+    width:55%;
+    margin-bottom:5px;
+}
+
+.nav--button img#logo{
+    width:120%;
+    margin-bottom:5px;
+}
+
+.nav--button{
+    width:100%;
+    padding:5px;
+    position: relative;
+    text-align:center;
+    font-size:24px;
+    font-family: 'ITC Kabel Std';
+    color:#C9252C;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.nav-button---logo {
+    flex:110%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.nav--button img:not(#logo){
+    width:55%;
+    margin-bottom:5px;
+}
+
+.nav--button img#logo{
+    margin-bottom:5px;
+}
+
+.nav--button img:hover{
+    cursor:pointer;
+}
+
+.landing img{
+    display:block;
+    width: 60%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.testimonials img{
+    width: 85%;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}

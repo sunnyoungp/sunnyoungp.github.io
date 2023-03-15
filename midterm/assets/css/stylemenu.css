@@ -1,0 +1,133 @@
+body{
+    background-color:#FFF33D;
+    margin-left:100px;
+    margin-right:100px;
+    display:-webkit-box;
+    font-family:'ITC Kabel Std';
+    height:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+a img {
+    padding: 0;
+  }
+
+h1{
+    font-size: 48px;
+    color:#262626;
+}
+
+h2{
+    font-family: 'Futura';
+    font-size: 80px;
+    color:#C9252C;
+    line-height:0;
+}
+
+h3{
+    font-family: 'Helvetica Neue';
+    font-size: 26px;
+    color:#262626;
+    line-height:0;
+}
+
+p{
+    font-family: 'Helvetica Neue';
+    font-size: 20px;
+    color:black;
+}
+
+p a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    height: 100px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav--button img:not(#logo){
+    width:55%;
+    margin-bottom:5px;
+}
+
+.nav--button img#logo{
+    width:120%;
+    margin-bottom:5px;
+}
+
+.nav--button{
+    width:100%;
+    padding:5px;
+    position: relative;
+    text-align:center;
+    font-size:24px;
+    font-family: 'ITC Kabel Std';
+    color:#C9252C;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.nav-button---logo {
+    flex:110%;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.nav--button--menu{
+    color:#262626;
+}
+
+.nav--button img:not(#logo){
+    width:55%;
+    margin-bottom:5px;
+}
+
+.nav--button img#logo{
+    margin-bottom:5px;
+}
+
+.nav--button img:hover{
+    cursor:pointer;
+}
+
+.menu--item--text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu--item {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu--item img {
+    width:45%;
+}
+
+.rest{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.rest--item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rest--item p:hover{
+    cursor:pointer;
+}
