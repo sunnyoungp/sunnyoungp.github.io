@@ -57,6 +57,7 @@ p a{
     margin-top: 80px;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .nav--button img:not(#logo){
@@ -81,8 +82,15 @@ p a{
     flex-direction: column;
     align-items:center;
     justify-content: flex-end;
-
 }
+
+.menu--item--text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: flex-end;
+}
+  
 
 .nav-button---logo {
     flex:110%;
@@ -90,10 +98,13 @@ p a{
     padding: 30px;
 }
 
-
-.nav--button--menu{
-    color:#262626;
-}
+.nav--button--menu {
+    color: #262626;
+  }
+  
+.nav--button--menu a {
+    margin-top: auto;
+  }
 
 .nav--button img:not(#logo){
     width:55%;
