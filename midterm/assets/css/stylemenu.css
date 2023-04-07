@@ -83,13 +83,6 @@ p a{
     align-items:center;
     justify-content: flex-end;
 }
-
-.menu--item--text {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    align-self: flex-end;
-}
   
 
 .nav-button---logo {
@@ -100,11 +93,7 @@ p a{
 
 .nav--button--menu {
     color: #262626;
-  }
-  
-.nav--button--menu a {
-    margin-top: auto;
-  }
+}
 
 .nav--button img:not(#logo){
     width:55%;
