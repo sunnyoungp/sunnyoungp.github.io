@@ -133,15 +133,15 @@ p {
 }
 
 .sticker.anthony {
-    top: 220px;
+    top: 180px;
 	right: 240px;
     width: 170px;
 }
 
 .sticker.gopro {
-    top: 360px;
-	right: 200px;
-    width: 170px;
+    top: 480px;
+	right: 260px;
+    height: 190px;
 }
 
 .sticker.margo {
@@ -175,7 +175,7 @@ p {
 }
 
 .sticker.lulu{
-    top: 460px;
-	right: 220px;
-    height: 160px;
+    top: 320px;
+	right: 240px;
+    height: 140px;
 }
