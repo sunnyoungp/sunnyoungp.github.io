@@ -1,0 +1,113 @@
+body{
+    font-family:'PP Editorial New';
+    margin-top: 50px;
+    margin-bottom: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    } 
+
+h1 {
+    font-size: 84px;
+    color: white;
+    font-weight: normal;
+    line-height: 1%;
+}
+
+h2 {
+    font-size: 22px;
+    color:#757575;
+    font-family: 'Matter';
+    line-height:0%;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+    color:#757575;
+    font-family: 'Matter';
+    line-height:0%;
+}
+
+/* MOVING THE STICKER */
+
+.sticker {
+	position: absolute;
+	cursor: move;
+}
+
+.sticker.orange {
+    top: 190px;
+	left: 100px;
+    width: 150px;
+}
+
+.sticker.pumpkin {
+	top: 230px;
+	left: 280px;
+    width: 120px;
+}
+
+.sticker.topdog {
+    top: 490px;
+	left: 200px;
+    width: 150px;
+}
+
+.sticker.cup {
+    top: 190px;
+	left: 100px;
+    width: 150px;
+
+.sticker.geena {
+    top: 190px;
+	left: 100px;
+    width: 150px;
+}
+
+.sticker.wine {
+    top: 190px;
+	left: 100px;
+    height: 150px;
+}
+
+.sticker.odtd {
+    top: 190px;
+	left: 100px;
+    width: 150px;
+}
+
+.sticker.frog {
+    top: px;
+    left: px;
+}
+
+.sticker.binch {
+    top: px;
+    left: px;
+}
+
+.sticker.homework {
+    top: px;
+    left: px;
+}
+
+.sticker.jennie {
+    top: px;
+    left: px;
+}
+
+.sticker.lauren {
+    top: px;
+    left: px;
+}
+
+.sticker.anthony {
+    top: px;
+    left: px;
+}
+
+.sticker.gopro {
+    top: px;
+    left: px;
+}
